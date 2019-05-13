@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.tm-container{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.tm-header{
+	background:rgba(144, 146, 147, 0.5);
+}
+ .tm-header::after{
+ 	content: " ";
+ 	clear: both;
+ 	display: block;
+ 	visibility:none;
+ }
+ .tm-nav{
+ 	float:right;
+ }
+.tm-nav ul li{
+	display: inline-block;
+
+}
+.tm-nav ul li a{
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 100px;
+	text-decoration: none;
+	color: rgba(104, 106, 107, 1);
+	line-height: 60px;
+}
+.tm-nav ul li a:hover{
+	color:rgba(0,0,0,0.8);
+}
+.tm-logo{
+	float: left;
+	border-radius: 20px;
+}
+.grad{
+	padding-top: 300px;
+	padding-bottom: 230px;
+	width=100%;
+	background: linear-gradient( to right,rgba(44,113,224,0.5),rgba(144,180,237,0.5));
+}
+.tm-footer{
+	background:rgba(144, 146, 147, 0.5);
+	text-align: center;
+}
+body{
+	background-image: url('Achievement.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p{
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
