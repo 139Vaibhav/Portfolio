@@ -1,7 +1,8 @@
 *{
 	margin: 0;
 	padding: 0;
-
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 .tm-container{
 	margin-left: 40px;
